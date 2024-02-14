@@ -7,10 +7,6 @@ end or load
 
 local complex = require 'complex'
 
--- complex.IMAGINARY_CHAR = 'j' -- electrical notation.
--- complex.PREFIX = true
--- complex.PARENTHESES = true
-
 local context = {
     complex = complex,
     pi = math.pi,
@@ -31,7 +27,7 @@ local cases = {
     'x', 'y', 'z', 'x:abs ()', 'i', '2 + i',
     'x + y', 'x - y', 'x + 12', 'x - 12', '12 + x', '12 - x',
     'x * y', 'y * 12', '2 * x',
-    'y:conjugate ()', 'x / y', 'y / y', 'x / 5', '5 / x', '5 / x * x',
+    'y:conjugate ()', 'x / y', 'y / y', 'x / 5', '5 / x', '5 / x * x', '10 / z',
     'y:abs ()', 'y:arg () / pi * 180',
     'complex.polar (2, pi / 4)', 'complex.polar (2, 0)', 'complex.polar (2, pi / 2)', 'y:exp ()',
     'x ^ 2', 'z ^ 2', '2 ^ y', '2 ^ x',
