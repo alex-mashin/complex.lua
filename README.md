@@ -2,7 +2,7 @@
 
 *Version 0.1*
 
-*complex.lua* is a small Lua ligrary that implements complex numbers. It started as an [answer on Code Review Stack Exchange](/home/alexander/sources/FormatterII/README.md).
+*complex.lua* is a small Lua ligrary that implements complex numbers. It started as an [answer on Code Review Stack Exchange](https://codereview.stackexchange.com/a/253022/230923).
 
 ## Usage:
 - `complex = require 'complex'` — require the library,
